@@ -1,0 +1,31 @@
+mat-card {
+  width:300px;
+}
+
+mat-card > .over {
+  background:rgba(52, 152, 219, 0.1);
+  border:0px;
+}
+
+::ng-deep .mat-card-header {
+  text-align: center;   
+  padding:15px;
+}
+
+.odd {
+  background-color: #ecf0f1;
+}
+
+.over {
+  border: 1px solid gray;
+}
+
+ul {
+  padding-left:0;
+  list-style: none;
+}
+
+li {
+  padding: 15px;
+}
+
